@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 
 ![ElytraSynthesisMod](https://socialify.git.ci/StarXinXin/ElytraSynthesisMod/image?description=1&descriptionEditable=%E4%B8%80%E6%AC%BE%E5%90%88%E6%88%90%E9%9E%98%E7%BF%85%E7%9A%84Fabric%E6%A8%A1%E7%BB%84&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light)
 
@@ -22,4 +22,4 @@
 
 ## 联系
 开发者企鹅：1402832033
-</center>
+</div>
