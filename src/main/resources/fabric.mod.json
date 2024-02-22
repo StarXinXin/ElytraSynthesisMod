@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "elytra-synthesis-mod",
+	"version": "${version}",
+	"name": "鞘翅合成模组",
+	"description": "众所周知，鞘翅是不能合成的啊，那么这个模组能让你合成鞘翅，作者：摘星辰(xinstudio.top)",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/elytra-synthesis-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.xinstudio.ElytraSynthesisMod"
+		],
+		"client": [
+			"top.xinstudio.ElytraSynthesisClient"
+		],
+		"fabric-datagen": [
+			"top.xinstudio.ElytraSynthesisModDataGenerator"
+		]
+	},
+	"mixins": [
+		"elytra-synthesis-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
