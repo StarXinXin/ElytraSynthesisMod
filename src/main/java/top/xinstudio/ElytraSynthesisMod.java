@@ -2,8 +2,11 @@ package top.xinstudio;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.item.Item;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import top.xinstudio.registry.ModItemGroup;
+import top.xinstudio.registry.ModItems;
 
 public class ElytraSynthesisMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -20,6 +23,7 @@ public class ElytraSynthesisMod implements ModInitializer {
 
 //		ModItems.registerModItems();
 //		ModItemGroup.registerModItemGroup();
+//		ElytraSynthesisClient.registerModelPredicates();
 
 		LOGGER.info("Hello Fabric world!");
 	}
